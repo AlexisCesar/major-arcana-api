@@ -10,24 +10,24 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.alexiscesar.TarotCardAPI.entities.TarotCard;
-import com.alexiscesar.TarotCardAPI.repositories.TarotCardRepository;
+import com.alexiscesar.TarotCardAPI.services.TarotCardService;
 
 @Controller
 @RequestMapping("/tarot-card")
 public class TarotCardResource {
 	
 	@Autowired
-	private TarotCardRepository repository;
+	TarotCardService service;
 	
 	@GetMapping
 	public ResponseEntity<List<TarotCard>> findAll() {
-		List<TarotCard> deck = repository.findAll();
+		List<TarotCard> deck = service.findAll();
 		return ResponseEntity.ok().body(deck);
 	}
 	
 	@GetMapping("/{cardNumber}")
 	public ResponseEntity<TarotCard> findById(@PathVariable byte cardNumber) {
-		TarotCard card = repository.findById(cardNumber).get();
+		TarotCard card = service.findById(cardNumber);
 		return ResponseEntity.ok().body(card);
 	}
 	
