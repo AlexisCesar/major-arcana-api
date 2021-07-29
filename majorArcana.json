@@ -1,0 +1,112 @@
+[
+    {
+        "cardNumber": 0,
+        "cardName": "Fool",
+        "cardDescription": ""
+    },
+    {
+        "cardNumber": 1,
+        "cardName": "Magician",
+        "cardDescription": ""
+    },
+    {
+        "cardNumber": 2,
+        "cardName": "High Priestess",
+        "cardDescription": ""
+    },
+    {
+        "cardNumber": 3,
+        "cardName": "Empress",
+        "cardDescription": ""
+    },
+    {
+        "cardNumber": 4,
+        "cardName": "Emperor",
+        "cardDescription": ""
+    },
+    {
+        "cardNumber": 5,
+        "cardName": "Pope",
+        "cardDescription": ""
+    },
+    {
+        "cardNumber": 6,
+        "cardName": "Lovers",
+        "cardDescription": ""
+    },
+    {
+        "cardNumber": 7,
+        "cardName": "Chariot",
+        "cardDescription": ""
+    },
+    {
+        "cardNumber": 8,
+        "cardName": "Justice",
+        "cardDescription": ""
+    },
+    {
+        "cardNumber": 9,
+        "cardName": "Hermit",
+        "cardDescription": ""
+    },
+    {
+        "cardNumber": 10,
+        "cardName": "Wheel of Fortune",
+        "cardDescription": ""
+    },
+    {
+        "cardNumber": 11,
+        "cardName": "Strength",
+        "cardDescription": ""
+    },
+    {
+        "cardNumber": 12,
+        "cardName": "Hanged Man",
+        "cardDescription": ""
+    },
+    {
+        "cardNumber": 13,
+        "cardName": "Death",
+        "cardDescription": ""
+    },
+    {
+        "cardNumber": 14,
+        "cardName": "Temperance",
+        "cardDescription": ""
+    },
+    {
+        "cardNumber": 15,
+        "cardName": "Devil",
+        "cardDescription": ""
+    },
+    {
+        "cardNumber": 16,
+        "cardName": "Tower",
+        "cardDescription": ""
+    },
+    {
+        "cardNumber": 17,
+        "cardName": "Star",
+        "cardDescription": ""
+    },
+    {
+        "cardNumber": 18,
+        "cardName": "Moon",
+        "cardDescription": ""
+    },
+    {
+        "cardNumber": 19,
+        "cardName": "Sun",
+        "cardDescription": ""
+    },
+    {
+        "cardNumber": 20,
+        "cardName": "Judgement",
+        "cardDescription": ""
+    },
+    {
+        "cardNumber": 21,
+        "cardName": "World",
+        "cardDescription": ""
+    }
+]
