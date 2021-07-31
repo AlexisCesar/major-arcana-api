@@ -2,6 +2,7 @@ package com.alexiscesar.TarotCardAPI.entities;
 
 import java.io.Serializable;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
@@ -13,8 +14,8 @@ public class TarotCard implements Serializable {
 	@Id
 	private byte cardNumber;
 	private String cardName;
+	@Column(length = 5000)
 	private String cardDescription;
-	//private Set<String> keyWords = new HashSet<>();
 	
 	public TarotCard() {
 		

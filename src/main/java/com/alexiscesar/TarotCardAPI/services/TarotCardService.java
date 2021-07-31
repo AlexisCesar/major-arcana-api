@@ -27,7 +27,6 @@ public class TarotCardService {
 	private TarotCard searchCard(byte id) {
 		Optional<TarotCard> card = repository.findById(id);
 		
-		//TODO change exception to a personalized one
 		return card.orElseThrow(() -> new CardNotFoundException("No card with this number was found! Major arcana only contains cards from 0 to 21."));
 	}
 	
